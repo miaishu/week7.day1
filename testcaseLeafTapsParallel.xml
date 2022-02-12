@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" verbose="5" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="testcases_LeaftapParallel.VerifyDuplicateLead"/>
+      <class name="testcases_LeaftapParallel.VerifyMergeLead"/>
+      <class name="testcases_LeaftapParallel.VerifyLogin"/>
+      <class name="testcases_LeaftapParallel.VerifyEditLead"/>
+      <class name="testcases_LeaftapParallel.VerifyDeleteLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
